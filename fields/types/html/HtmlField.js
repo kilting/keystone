@@ -201,6 +201,7 @@ module.exports = Field.create({
 					style={style}
 					value={this.props.value}
 				/>
+				<div>{this.props.value.length}</div>
 			</div>
 		);
 	},
