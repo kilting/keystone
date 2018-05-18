@@ -201,7 +201,7 @@ module.exports = Field.create({
 					style={style}
 					value={this.props.value}
 				/>
-				<div>{this.props.value}</div>
+				<div>{this.props.value ? `Current length: ${this.props.value.length}` : ''}</div>
 			</div>
 		);
 	},
